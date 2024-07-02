@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import ArchiveCard from "./ArchiveCard";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
@@ -63,10 +63,10 @@ const Archive = () => {
 
         {showMore && (
           <>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.1 }}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.1 }}
             >
               <ArchiveCard
                 title="OREBI e-commerce Shopping store"
@@ -75,11 +75,11 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
                 link="https://orebishopping.reactbd.com/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.2 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
             >
               <ArchiveCard
                 title="Noor Online Shopping Store"
@@ -88,11 +88,11 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
                 link="https://noorshop.netlify.app/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.3 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
             >
               <ArchiveCard
                 title="Personalized Blog"
@@ -101,11 +101,11 @@ const Archive = () => {
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
                 link="https://my-blog-delta-eight.vercel.app/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.4 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
             >
               <ArchiveCard
                 title="Shoppers Online Shopping Market"
@@ -114,11 +114,11 @@ const Archive = () => {
                 listItem={["Nextjs", "react-slick", "redux-toolkit"]}
                 link="https://shoppersyt.vercel.app/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.5 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
             >
               <ArchiveCard
                 title="Single Page Personalized Portfolio"
@@ -127,11 +127,11 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://portfoliotwo.reactbd.com/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.6 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.6 }}
             >
               <ArchiveCard
                 title="Nextjs Dynamic Portfolio"
@@ -140,11 +140,11 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://portfoliothree.reactbd.com/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.7 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.7 }}
             >
               <ArchiveCard
                 title="Bazaar - A Modern Shopping app"
@@ -153,11 +153,11 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://bazar.reactbd.com/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.8 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.8 }}
             >
               <ArchiveCard
                 title="Blog101 Application"
@@ -166,11 +166,11 @@ const Archive = () => {
                 listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
                 link="https://blog101.reactbd.com/"
               />
-            </div>
-            <div
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
-            // transition={{ delay: 0.9 }}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.9 }}
             >
               <ArchiveCard
                 title="Todo application"
@@ -179,7 +179,7 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://youtubetodo.vercel.app/"
               />
-            </div>
+            </motion.div>
           </>
         )}
       </div>
@@ -187,14 +187,14 @@ const Archive = () => {
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen hover:text-gray-800 duration-300"
           >
             Show Less
           </button>
         ) : (
           <button
             onClick={() => setShowMore(true)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen hover:text-gray-800 duration-300"
           >
             Show More
           </button>
