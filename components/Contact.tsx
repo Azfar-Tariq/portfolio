@@ -11,9 +11,9 @@ const Contact = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
-        Although I&apos;m not currently looking for any new opportunities, my
-        inbox is always open. Whether you have a question or just want to say
-        hi, I&apos;ll try my best to get back to you!
+        I&apos;m currently looking for any new opportunities, my inbox is always
+        open. Whether you have a question or just want to say hi, I&apos;ll try
+        my best to get back to you!
       </p>
 
       <a href="mailto:noor.jsdivs@gmail.com">

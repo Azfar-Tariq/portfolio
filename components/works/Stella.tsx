@@ -1,6 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
-const Google = () => {
+
+const Stella = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -9,11 +10,15 @@ const Google = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Web Developer
-        <span className="text-textGreen tracking-wide">@Google</span>
+        Front End Web Developer
+        <a href="https://www.stellatechnology.com/">
+          <span className="text-textGreen tracking-wide">
+            @StellaTechnology
+          </span>
+        </a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2022 - Dec 2023
+        Jul 2023 - Sep 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -45,4 +50,4 @@ const Google = () => {
   );
 };
 
-export default Google;
+export default Stella;

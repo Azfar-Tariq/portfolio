@@ -1,7 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
 
-const Splash = () => {
+const Izoc = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,11 +10,13 @@ const Splash = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
-        <span className="text-textGreen tracking-wide">@Splash</span>
+        Web Developer
+        <a href="https://izocsolutions.com/">
+          <span className="text-textGreen tracking-wide">@IzocSolutions</span>
+        </a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+        July 2024 - Sep 2024
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -46,4 +48,4 @@ const Splash = () => {
   );
 };
 
-export default Splash;
+export default Izoc;
