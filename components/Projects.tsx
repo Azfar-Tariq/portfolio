@@ -1,6 +1,10 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import {
+  fypImage,
+  gftImage,
+  chirpifyImage,
+  airNewsImage,
+} from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -9,19 +13,68 @@ const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some Things I have Built" />
-      {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        {/* ============ project main start here ================ */}
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://github.com/Azfar-Tariq/fyp"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={fypImage}
+                alt="fypImage"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                IoT Based Electricity Conservation System
+              </h3>
+            </div>
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+              For my final year project, I developed an IoT-based Electricity
+              Conservation System, designed to optimize energy usage and promote
+              efficient electricity management.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>React JS</li>
+              <li>SQL</li>
+              <li>OpenCV</li>
+              <li>Yolov5</li>
+              <li>Raspberry Pi</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://github.com/Azfar-Tariq/fyp"
+                target="_blank"
+              >
+                <TbBrandGithub />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* ============ project main end here ================ */}
+        {/* ============ project One Start here ================ */}
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://goat-trading-arena.vercel.app"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={gftImage}
+                alt="gftImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -31,39 +84,30 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Goat Funded Trader</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              Recreated a website similar to goatfundedtrader.com for a client,
+              using{" "}
+              <span className="text-textGreen">React and Tailwind CSS</span> to
+              deliver a responsive and user-friendly trading platform.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>React JS</li>
+              <li>Tailwind CSS</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Azfar-Tariq/goat-trading-arena"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://goat-trading-arena.vercel.app"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -76,14 +120,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://social-media-app-omega-sandy.vercel.app/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={chirpifyImage}
+                alt="chirpifyImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -93,41 +137,33 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Chirpify</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+              Developed a basic social media app using{" "}
+              <span className="text-textGreen">
+                Next.js, TypeScript, NextAuth, and MongoDB,
+              </span>{" "}
+              allowing users to post, like, comment, and follow each other.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
+              <li>Next</li>
               <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>Next Auth</li>
+              <li>MongoDB</li>
+              <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Azfar-Tariq/social-media-app"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://social-media-app-omega-sandy.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -140,14 +176,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://air-news-swart.vercel.app/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={airNewsImage}
+                alt="airNewsImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -157,39 +193,29 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Air News</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              built a website using React and Tailwind, featuring various
+              categories for users to explore, with news articles linked for
+              further reading.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>React JS</li>
+              <li>Tailwind CSS</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Azfar-Tariq/Air-News"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href="https://air-news-swart.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />

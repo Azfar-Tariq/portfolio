@@ -23,23 +23,25 @@ const Fiverr = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          Developed responsive and dynamic web applications using React.js and
+          Tailwind CSS for various clients, ensuring cross-device compatibility
+          and optimal performance.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          Collaborated with clients to understand project requirements and
+          deliver custom solutions, enhancing user experience and engagement
+          through modern front-end technologies.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Implemented state management using Redux and integrated third-party
+          APIs, delivering seamless functionality and scalability for client
+          projects.
         </li>
       </ul>
     </motion.div>

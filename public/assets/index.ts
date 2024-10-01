@@ -1,7 +1,7 @@
-import logo from "./images/logo.png";
-import profileImg from "./images/profile.png";
-import amazonImg from "./images/amazonImg.png";
-import cyberImg from "./images/cyberBlog.png";
-import noorShop from "./images/noorShop.png";
+import logo from "./images/logo2.png";
+import fypImage from "./images/fypImage.png";
+import gftImage from "./images/gft_main.png";
+import chirpifyImage from "./images/chirpifyImage.png";
+import airNewsImage from "./images/airnewsImage.png";
 
-export { logo, profileImg, amazonImg, cyberImg, noorShop };
+export { logo, fypImage, chirpifyImage, gftImage, airNewsImage };

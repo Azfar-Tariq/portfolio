@@ -38,7 +38,7 @@ export default function Home() {
             <Banner />
             <Experience />
             <Projects />
-            <Archive />
+            {/* <Archive /> */}
             <Contact />
             <Footer />
           </div>
