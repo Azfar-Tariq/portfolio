@@ -69,7 +69,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/assets/images/chirpifyImage.png"
+                src="/assets/images/gft_main.png"
                 width={1000}
                 height={600}
                 alt="gftImage"
@@ -124,7 +124,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/assets/images/chirpifyImage.png"
+                src="/assets/images/chirpify.png"
                 width={1000}
                 height={600}
                 alt="chirpifyImage"
@@ -182,7 +182,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/assets/images/airnewsImage.png"
+                src="/assets/images/airnews.png"
                 width={1000}
                 height={600}
                 alt="airNewsImage"
