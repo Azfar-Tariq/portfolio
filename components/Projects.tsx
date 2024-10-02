@@ -1,9 +1,3 @@
-// import {
-//   fypImage,
-//   gftImage,
-//   chirpifyImage,
-//   airNewsImage,
-// } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -24,7 +18,9 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/public/assets/images/fypImage.png"
+                src="/assets/images/fypImage.png"
+                width={56}
+                height={56}
                 alt="fypImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -73,7 +69,9 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/public/assets/images/gft_main.png"
+                src="/assets/images/gft_main.png"
+                width={56}
+                height={56}
                 alt="gftImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -126,7 +124,9 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/public/assets/images/chirpifyImage.png"
+                src="/assets/images/chirpifyImage.png"
+                width={56}
+                height={56}
                 alt="chirpifyImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -182,7 +182,9 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/public/assets/images/airnewsImage.png"
+                src="/assets/images/airnewsImage.png"
+                width={56}
+                height={56}
                 alt="airNewsImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>

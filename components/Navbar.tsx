@@ -52,7 +52,9 @@ const Navbar = () => {
           >
             <Image
               className="w-14"
-              src="/public/assets/images/logo2.png"
+              width={56}
+              height={56}
+              src="/assets/images/logo2.png"
               alt="logo"
             />
           </motion.div>
