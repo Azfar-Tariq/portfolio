@@ -19,11 +19,11 @@ const Projects = () => {
               <Image
                 className="w-full h-full object-contain"
                 src="/assets/images/fypImage.png"
-                width={56}
-                height={56}
+                width={1000}
+                height={600}
                 alt="fypImage"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full  rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
@@ -70,11 +70,11 @@ const Projects = () => {
               <Image
                 className="w-full h-full object-contain"
                 src="/assets/images/gft_main.png"
-                width={56}
-                height={56}
+                width={1000}
+                height={600}
                 alt="gftImage"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full  rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
@@ -125,11 +125,11 @@ const Projects = () => {
               <Image
                 className="w-full h-full object-contain"
                 src="/assets/images/chirpifyImage.png"
-                width={56}
-                height={56}
+                width={1000}
+                height={600}
                 alt="chirpifyImage"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full  rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
@@ -183,11 +183,11 @@ const Projects = () => {
               <Image
                 className="w-full h-full object-contain"
                 src="/assets/images/airnewsImage.png"
-                width={56}
-                height={56}
+                width={1000}
+                height={600}
                 alt="airNewsImage"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full  rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
