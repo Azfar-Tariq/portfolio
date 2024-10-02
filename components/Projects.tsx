@@ -1,9 +1,9 @@
-import {
-  fypImage,
-  gftImage,
-  chirpifyImage,
-  airNewsImage,
-} from "@/public/assets";
+// import {
+//   fypImage,
+//   gftImage,
+//   chirpifyImage,
+//   airNewsImage,
+// } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -24,7 +24,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={fypImage}
+                src="/public/assets/images/fypImage.png"
                 alt="fypImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -73,7 +73,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={gftImage}
+                src="/public/assets/images/gft_main.png"
                 alt="gftImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -126,7 +126,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={chirpifyImage}
+                src="/public/assets/images/chirpifyImage.png"
                 alt="chirpifyImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -182,7 +182,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={airNewsImage}
+                src="/public/assets/images/airnewsImage.png"
                 alt="airNewsImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>

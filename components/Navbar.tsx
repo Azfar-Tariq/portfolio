@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -51,7 +50,11 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <Image
+              className="w-14"
+              src="/public/assets/images/logo2.png"
+              alt="logo"
+            />
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
