@@ -198,7 +198,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Air News</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              built a website using React and Tailwind, featuring various
+              Built a website using React and Tailwind, featuring various
               categories for users to explore, with news articles linked for
               further reading.
             </p>
