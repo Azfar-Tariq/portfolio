@@ -115,7 +115,7 @@ const Projects = () => {
         </div>
         {/* ============ project One End here ================== */}
         {/* ============ project Two Start here ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
+        {/* <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://social-media-app-omega-sandy.vercel.app/"
@@ -170,7 +170,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ============ project Two End here ================== */}
         {/* ============ project Three Start here ============== */}
         <div className="flex flex-col xl:flex-row gap-6">
