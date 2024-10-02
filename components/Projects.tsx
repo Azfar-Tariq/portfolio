@@ -60,7 +60,7 @@ const Projects = () => {
         </div>
         {/* ============ project main end here ================ */}
         {/* ============ project One Start here ================ */}
-        {/* <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://goat-trading-arena.vercel.app"
@@ -69,7 +69,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/assets/images/gft_main.png"
+                src="/assets/images/chirpifyImage.png"
                 width={1000}
                 height={600}
                 alt="gftImage"
@@ -112,7 +112,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* ============ project One End here ================== */}
         {/* ============ project Two Start here ================ */}
         <div className="flex flex-col xl:flex-row-reverse gap-6">
