@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import { TiArrowForward } from "react-icons/ti";
+import { motion } from 'framer-motion';
+import { TiArrowForward } from 'react-icons/ti';
 
 const Fiverr = () => {
   return (
@@ -11,7 +11,7 @@ const Fiverr = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Freelancer
-        <a href="https://www.fiverr.com/">
+        <a href="https://www.fiverr.com/" target="_blank">
           <span className="text-textGreen tracking-wide">@Fiverr</span>
         </a>
       </h3>

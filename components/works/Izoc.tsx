@@ -1,5 +1,5 @@
-import { TiArrowForward } from "react-icons/ti";
-import { motion } from "framer-motion";
+import { TiArrowForward } from 'react-icons/ti';
+import { motion } from 'framer-motion';
 
 const Izoc = () => {
   return (
@@ -11,7 +11,7 @@ const Izoc = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Web Developer
-        <a href="https://izocsolutions.com/">
+        <a href="https://izocsolutions.com/" target="_blank">
           <span className="text-textGreen tracking-wide">@IzocSolutions</span>
         </a>
       </h3>

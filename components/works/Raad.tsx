@@ -11,7 +11,7 @@ const RaadTech = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Front End Web Developer
-        <a href="http://www.raad.com.pk/index.html">
+        <a href="http://www.raad.com.pk/index.html" target="_blank">
           <span className="text-textGreen tracking-wide">
             @RaadTechnologies
           </span>
