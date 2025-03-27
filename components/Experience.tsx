@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import SectionTitle from "./SectionTitle";
-import Stella from "./works/Stella";
-import Izoc from "./works/Izoc";
-import Fiverr from "./works/Fiverr";
+import React, { useState } from 'react';
+import SectionTitle from './SectionTitle';
+import Stella from './works/Stella';
+import Izoc from './works/Izoc';
+import Fiverr from './works/Fiverr';
+import Raad from './works/Raad';
 
 type WorkExperience = {
   id: string;
@@ -11,9 +12,10 @@ type WorkExperience = {
 };
 
 const workExperiences: WorkExperience[] = [
-  { id: "stella", label: "Stella Technology", component: Stella },
-  { id: "izoc", label: "Izoc Solutions", component: Izoc },
-  { id: "fiverr", label: "Fiverr", component: Fiverr },
+  { id: 'raad', label: 'Raad Technologies', component: Raad },
+  { id: 'stella', label: 'Stella Technology', component: Stella },
+  { id: 'izoc', label: 'Izoc Solutions', component: Izoc },
+  { id: 'fiverr', label: 'Fiverr', component: Fiverr },
 ];
 
 interface ExperienceButtonProps {
@@ -35,8 +37,8 @@ const ExperienceButton: React.FC<ExperienceButtonProps> = ({
       border-l-2 bg-transparent hover:bg-[#112240] py-3 leading-normal cursor-pointer duration-300 px-8 font-medium
       ${
         activeWork === id
-          ? "border-l-textGreen text-textGreen"
-          : "border-l-hoverColor text-textDark"
+          ? 'border-l-textGreen text-textGreen'
+          : 'border-l-hoverColor text-textDark'
       }
     `}
   >
@@ -45,7 +47,7 @@ const ExperienceButton: React.FC<ExperienceButtonProps> = ({
 );
 
 const Experience: React.FC = () => {
-  const [activeWork, setActiveWork] = useState<string>("stella");
+  const [activeWork, setActiveWork] = useState<string>('raad');
 
   const ActiveWorkComponent = workExperiences.find(
     (work) => work.id === activeWork
