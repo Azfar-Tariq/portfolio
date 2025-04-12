@@ -11,6 +11,7 @@ import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
+import Skills from "@/components/Skills";
 import Head from "next/head";
 import React from "react";
 
@@ -37,6 +38,7 @@ export default function Home() {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <Experience />
+            <Skills />
             <Projects />
             {/* <Archive /> */}
             <Contact />
