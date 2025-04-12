@@ -91,6 +91,19 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              href="#skills"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ x: 20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
+              >
+                Skills
+              </motion.li>
+            </Link>
+            <Link
+              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#project"
               onClick={handleScroll}
             >
@@ -177,6 +190,19 @@ const Navbar = () => {
                       transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
                     >
                       Experience
+                    </motion.li>
+                  </Link>
+                  <Link
+                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    href="#skills"
+                    onClick={handleScroll}
+                  >
+                    <motion.li
+                      initial={{ x: 20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
+                    >
+                      Skills
                     </motion.li>
                   </Link>
                   <Link
