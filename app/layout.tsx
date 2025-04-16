@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Script from 'next/script';
 import { GoogleAnalytics } from './providers';
+import { Suspense } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -39,7 +40,9 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <GoogleAnalytics />
+        <Suspense fallback={<div>Loading...</div>}>
+          <GoogleAnalytics />
+        </Suspense>
         {children}
       </body>
     </html>
